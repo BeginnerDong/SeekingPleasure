@@ -8,7 +8,7 @@
 			<view class="xqInfor">
 				<image src="../../static/images/shezhi-img.png" mode="widthFix"></image>
 			</view>
-			
+			<view class="pdtb15 fs13 color9">阅读2.8万</view>
 		</view>
 		
 	</view>

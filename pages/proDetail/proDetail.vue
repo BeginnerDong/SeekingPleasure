@@ -1,11 +1,6 @@
 <template>
 	<view>
 		
-		<view class="flexRowBetween pdlr4 orderNav">
-			<view class="tt" :class="curr==1?'on':''" @click="changeCurr('1')">产品详情</view>
-			<view class="tt" :class="curr==2?'on':''" @click="changeCurr('2')">使用说明</view>
-		</view>
-		
 		<!-- banner -->
 		<view class="detailxqBan">
 			<swiper class="swiper-box flex" indicator-dots="true" autoplay="true" interval="3000" duration="1000"  indicator-active-color="#ff5420">
@@ -70,6 +65,10 @@
 			</view>
 		</view>
 		<view class="f5H5"></view>
+		<view class="flexRowBetween pdlr4 orderNav borderB1">
+			<view class="tt" :class="curr==1?'on':''" @click="changeCurr('1')">产品详情</view>
+			<view class="tt" :class="curr==2?'on':''" @click="changeCurr('2')">使用说明</view>
+		</view>
 		
 		<view class="mglr4 pdtb15" v-show="curr==1">
 			<view class="ftw mgb10">图文介绍</view>
