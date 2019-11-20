@@ -1,0 +1,21 @@
+	/* 数量加减 */
+	.numBox{border:1px solid #eee; border-radius: 8rpx;}
+	.numBox view{ width: 44rpx; height: 44rpx;color: #999; font-size:32rpx ; text-align: center; line-height: 44rpx;}
+	.numBox view.num{ width: 60rpx; color: #333; font-size: 28rpx;border-left:1px solid #eee;border-right:1px solid #eee;}
+	
+	/* 商城商品列表 */
+	.shopOrder{padding: 0 4%;}
+	.shopOrder .item .LT_icon{position: absolute; top: 0;left: 0; width:66rpx; height: 69rpx; z-index: 1;}
+	.shopOrder .item .ll .pic{width:194rpx ; height: 120rpx; border-radius: 10rpx; display: block;margin-right: 20rpx;}
+	.shopOrder .item .rr{width: 430rpx; height: 120rpx; position: relative;}
+	.shopOrder .item .rr .Bmny{position: absolute; bottom: 0rpx;left: 0; width: 100%;}
+	.shopOrder .item .buyBtn{width: 140rpx; height: 50rpx;line-height: 50rpx; text-align: center;background: #DA251C; color: #FFF;border-radius: 8rpx;}
+	.shopOrder .R_cont{width: 90%; align-items: flex-start;}
+	
+	
+	.item_selBtn{width: 10%;}
+	.seltIcon{width: 40rpx; height: 40rpx; display: block;}
+	.shopIcon{width: 27rpx; height: 24rpx; display: block;}
+	.alldeltBtn{width: 100rpx;height: 40rpx;line-height: 40rpx;border-radius: 30rpx;text-align: center;border:1px solid #3799FA;}
+
+

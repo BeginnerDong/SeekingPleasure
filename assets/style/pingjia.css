@@ -1,0 +1,11 @@
+
+/* 评价 */
+.interct_idexLis{background: #fff;border-radius: 10rpx;padding-top: ;}
+.interct_idexLis .child{box-sizing: border-box;padding:30rpx 0 20rpx 0;border-bottom: 2rpx solid #eee;}
+.interct_idexLis .child .photo{width: 80rpx; height: 80rpx;border-radius: 50%;overflow: hidden;margin-right: 20rpx;}
+.interct_idexLis .child .photo image{width: 100%;height: 100%; display: block;}
+.interct_idexLis .child .name{width:360rpx;}
+.interct_idexLis .child .lisThree{display: flex;flex-wrap: wrap;}
+.interct_idexLis .lisThree .item{ width:216rpx;height: 216rpx; overflow: hidden; margin-right: 20rpx;margin-bottom: 20rpx;}
+.interct_idexLis .lisThree .item:nth-child(3n){margin-right: 0;}
+.interct_idexLis .lisThree .item image{width: 100%;height: 100%;border-radius: 10rpx;}

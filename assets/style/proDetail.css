@@ -1,0 +1,63 @@
+
+/* 详情页 */
+
+.detail_one{padding: 30rpx 4%;}
+.detail_one .adrs{width: 85%;}
+.detail_one .adrs .adrs-tit{width: 92%;}
+.detail_one .range{width:15%;}
+
+.detailxqBan{ width: 100%;height:400rpx; display: block;}
+.detailxqBan .swiper-box { width: 100%;height: 100%;box-sizing: border-box;}
+.detailxqBan image{ width: 100%; height: 100%; display: block;}
+
+/* 倒计时 */
+.countdown{padding: 30rpx 4%;background: #ff5420;}
+.countdown .rr .tm{padding: 0 10rpx;background: #fff;border-radius: 6rpx;color: #ff5420;margin: 0 6rpx;}
+
+/* 规格选择 */
+.selt_specs .list{white-space: nowrap;}
+.selt_specs .item{padding: 10rpx 30rpx;border-radius:10rpx;border:1px solid #c8c8c8;background: #F5F5F5;margin-right: 28rpx; display: inline-block;box-sizing: border-box;}
+.selt_specs .item.on{color: #3799FA;border: 1px solid #3799FA;}
+.selt_specs .item-tit{margin-bottom: 8rpx;font-size: 24rpx;}
+.selt_specs .item-price{font-size: 26rpx;}
+
+.xqInfor .cont view {font-size: 26rpx;line-height: 44rpx;color: #666;padding-bottom: 10rpx;}
+.xqInfor .cont .title{font-size: 28rpx; color: #333;}
+.xqInfor .cont image{width: 100% !important;height: auto; display: block;margin: 20rpx auto;}
+
+.wx_tips .item{align-items: flex-start;}
+.wx_tips .item .ll{width:40rpx;}
+.wx_tips .item .rr{width: 95%;}
+.wx_tips .item .ll .dian{width: 10rpx; height: 10rpx;background: #666;transform:rotate(45deg);margin: 16rpx 0;}
+
+
+/* 拼团 */
+.detail_join .twolist .item .photo{width: 80rpx; height: 80rpx;margin-right: 20rpx;overflow: hidden;}
+.detail_join .twolist .item .photo image{width: 100%; height: 100%;border-radius: 50%;  display: block;}
+.detail_join .twolist .tit{font-size: 26rpx; color: #666; width: 220rpx;}
+.detail_join .twolist .downTime{width: 240rpx;text-align: center;}
+.detail_join .twolist .downTime .time{font-size: 24rpx; line-height: 32rpx; color: #666;}
+.detail_join .twolist .go{width: 100rpx; font-size: 26rpx; color: #3799FA;text-align: right;}
+
+
+
+/* 详情页底部菜单 */
+.xqbotomBar {width: 100%;height: 100rpx;background: #fff;box-shadow: 0 -4rpx 10rpx rgba(0, 0, 0, 0.1);align-items: center;position: fixed;bottom: 0;left: 0;right: 0; z-index: 99;box-sizing: border-box;}
+.xqbotomBar .left{width: 62%;padding:0 2%;box-sizing: border-box;}
+.xqbotomBar .left .ite{width: 33.3%;text-align: center;font-size: 24rpx;color: #666;line-height: 28rpx;}
+.xqbotomBar .left .ite image{width: 40rpx;height:40rpx;display: block;margin: 0 auto 6rpx auto;}
+.xqbotomBar .payBtn{width: 38%;}
+.xqbotomBar .payBtn{line-height: 100rpx;text-align: center;background: #3799FA;}
+
+
+/* 去拼团弹框 */
+.showSel{width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 10000;}
+.showSelCont {padding:40rpx 3%;background: #fff;}
+.showSelCont.fix{position: fixed;bottom: 0;left: 0;box-sizing: border-box;width: 100%;border-radius: 20rpx 20rpx 0 0;}
+.ind_proList .item{align-items:flex-start;}
+.ind_proList .item .ll{width: 200rpx; height: 200rpx; overflow: hidden;}
+.ind_proList .item .ll image{width: 100%; height: 100%; display: block;border-radius: 8rpx;}
+.ind_proList .item .rr{width: 68%;height: 200rpx;position: relative;}
+.ind_proList .item .title{font-size: 28rpx; line-height: 40rpx;}
+.ind_proList .item .money{ position: absolute;bottom: 0;left: 0; width: 100%;box-sizing: border-box;}
+
