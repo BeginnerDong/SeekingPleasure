@@ -20,9 +20,8 @@
 	uni-tabbar .uni-tabbar__icon{width: 44rpx;height: 44rpx;margin-top: 8rpx;}
 	uni-page-head .uni-page-head__title{font-weight: normal;}
 	uni-tabbar .uni-tabbar__label{line-height: 30rpx; margin-top: 10rpx;}
-	/* uni-swiper .uni-swiper-dot{background: rgba(255,255,255,0.5);} */
 	button:after{border: none;}
 	.ql-editor img{max-width: 100%;margin: 0 auto;display: block;}
 	uni-swiper .uni-swiper-dots-horizontal{ line-height: 16rpx;}
-	
+	.indHome uni-swiper .uni-swiper-dot{width: 50rpx!important;height: 6rpx;border-radius: 0rpx;margin-right: 0;background: #eee;}
 </style>

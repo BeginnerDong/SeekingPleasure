@@ -15,39 +15,70 @@
 		</view>
 		
 		<!-- 首页分类导航 -->
-		<view class="indHome pdlr4 flexRowBetween pdb15">
-			<view class="item"  @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon3.png"></image>
-				<view class="tit">美食</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon4.png"></image>
-				<view class="tit">KTV</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon5.png"></image>
-				<view class="tit">休闲生活</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon6.png"></image>
-				<view class="tit">酒店入住</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon7.png"></image>
-				<view class="tit">饮料</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon8.png"></image>
-				<view class="tit">学习培训</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon9.png"></image>
-				<view class="tit">母婴亲子</view>
-			</view>
-			<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
-				<image src="../../static/images/home-icon10.png"></image>
-				<view class="tit">保养爱车</view>
-			</view>
+		<view class="indHome pdlr4 flex pdb15">
+			<swiper class="swiper-box" indicator-dots="true"  indicator-active-color="#3799fa">
+				<swiper-item class="swiper-item flex" style="flex-wrap: wrap;">
+					<view class="item"  @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon3.png"></image>
+						<view class="tit">美食</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon4.png"></image>
+						<view class="tit">KTV</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon5.png"></image>
+						<view class="tit">休闲生活</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon6.png"></image>
+						<view class="tit">酒店入住</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon7.png"></image>
+						<view class="tit">饮料</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon8.png"></image>
+						<view class="tit">学习培训</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon9.png"></image>
+						<view class="tit">母婴亲子</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon10.png"></image>
+						<view class="tit">保养爱车</view>
+					</view>
+				</swiper-item>
+				<swiper-item class="swiper-item flex" style="flex-wrap: wrap;">
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon5.png"></image>
+						<view class="tit">休闲生活</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon7.png"></image>
+						<view class="tit">饮料</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon8.png"></image>
+						<view class="tit">学习培训</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon9.png"></image>
+						<view class="tit">母婴亲子</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon10.png"></image>
+						<view class="tit">保养爱车</view>
+					</view>
+					<view class="item" @click="Router.navigateTo({route:{path:'/pages/fineFood/fineFood'}})">
+						<image src="../../static/images/home-icon6.png"></image>
+						<view class="tit">酒店入住</view>
+					</view>
+				</swiper-item>
+				
+			</swiper>
 		</view>
 		
 		<view class="pdb15">
@@ -200,5 +231,7 @@
 	.swiper-box {height: 320rpx;box-sizing: border-box; width: 100%;}
 	.swiper-box swiper-item {width: 100%/* important;left:auto!important;margin: 0 30rpx; position: initial!important;float: left; */}
 	.swiper-box image {width: 100%;height: 100%;}
+	
+
 	
 </style>

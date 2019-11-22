@@ -105,7 +105,6 @@
 			},
 			getMainData() {
 				const self = this;
-				console.log('852369')
 				const postData = {};
 				postData.tokenFuncName = 'getProjectToken';
 				self.$apis.orderGet(postData, callback);

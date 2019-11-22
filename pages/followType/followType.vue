@@ -16,7 +16,7 @@
 		</view>
 		
 		<view class="submitbtn mgt30">
-			<view class="btn">保存</view>
+			<view class="btn" @tap="toast1Tap">保存</view>
 		</view>
 	</view>
 </template>
@@ -64,6 +64,11 @@
 			// self.$Utils.loadAll(['getMainData'], self);
 		},
 		methods: {
+			toast1Tap() {
+				uni.showToast({
+					title: "保存成功"
+				})
+			},
 			changeCurr(i){
 				const self = this;
 				self.shopDate[i].bOn = !self.shopDate[i].bOn;
